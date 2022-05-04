@@ -5,9 +5,10 @@ Ci sono diverse domande con relative risposte.
 Gestire il “Database” e la visualizzazione di queste domande e risposte con PHP.
 Mi raccomando di gestire per prima cosa la visualizzazione dei dati, anche in maniera grezza, e solo alla fine rendere più accattivante la pagina.
 -->
-
+<div class="container">
 <?php 
 include 'db.php';
+include 'head.php';
 foreach($faqs as $faq ){
     foreach($faq as $key => $value){
         if($key == 'question'){
@@ -22,4 +23,4 @@ foreach($faqs as $faq ){
     }
 }
 ?>
-
+</div>
