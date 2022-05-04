@@ -1,5 +1,5 @@
 <?php 
-    $faq = [
+    $faqs = [
         [
             'question'=>"Come state implementando la recente decisione della Corte di giustizia dell'Unione europea (CGUE) relativa al diritto all'oblio?",
             'answere' =>"La recente decisione della Corte di giustizia dell'Unione europea ha profonde conseguenze per i motori di ricerca in Europa. 
@@ -31,6 +31,7 @@
             'answere' =>"Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose: 
                         <ol>
                         <li>
+                        La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti:
                             <ol>
                                 <li>Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera.</li>
                                 <li>Google LLC, con sede negli Stati Uniti, per il resto del mondo.</li>

@@ -8,5 +8,18 @@ Mi raccomando di gestire per prima cosa la visualizzazione dei dati, anche in ma
 
 <?php 
 include 'db.php';
-var_dump($faq);
+foreach($faqs as $faq ){
+    foreach($faq as $key => $value){
+        if($key == 'question'){
 ?>
+        <h2><?php echo $value?></h2>
+<?php
+        }else{
+?>
+        <p><?php echo $value?></p>
+<?php
+        }
+    }
+}
+?>
+
